@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        padding: 0px;
+        margin: 0px ;
+        background-color: pink;
+    }
+    .container {
+    padding: 16px;
+  }
+  .cantainer {
+    width: 80%;
+    margin-top: 30px;
+    height: 40px;
+    margin-left: auto;
+   margin-right: auto;
+   border-radius: 16px; 
+  }
+  .box{
+    text-align: center;
+    width: 450px;
+    height: 600px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    background-color: aqua;
+    position: absolute;
+    top: 15%;
+    padding: 6px 30px;
+    
+    
+  }
+.log{
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    color: rgb(14, 8, 1);
+    background-color: rgb(212, 108, 39);
+}
+.psw{
+    margin-top: 30px;
+}
+    
+    </style>
+</head>
+<body>
+    <form class="was-validated">
+    <div class="box" style="margin-left: 30%;">
+    <h1>Anganwadi flow chart</h1>
+    <h1 class="login">create an account</h1>
+    <div>
+        
+        <div>
+        <input type="text" placeholder="Enter Username" class="cantainer" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div>
+        
+        <input type="password" placeholder="Password" class="cantainer" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+    </div>  
+         
+        <div>
+        <input type="email" placeholder="email" class="cantainer" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+    </div> 
+    <span class="psw">forgot <a href="#">password?</a></span>
+    <div>
+        <button type="submit" class="log">Login</button>
+    </div>
+    
+
+</div>
+</form>
+</body>
+</html>
